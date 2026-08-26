@@ -4,7 +4,7 @@
 
 This repository provides a **PyTorch implementation** of:
 
-> **RISTER** (TODO: 添加论文标题 / 会议信息)
+> Embedding Rotation Invariance for Provable Multi-Oriented Scene Text Recognition (ECCV 2026)
 
 RISTER is a scene text recognition (STR) model built upon the [OpenOCR](https://github.com/Topdu/OpenOCR) framework. It consists of two core components:
 
@@ -39,10 +39,10 @@ The models are trained on the **Union14M-L-Filtered** dataset (real-world scene 
 
 | Model | Depths | Heads | Params | Checkpoint |
 |:-----:|:------:|:-----:|:------:|:----------:|
-| RISTER-T | [1, 1, 1, 6] | 6 | 15.94M | TODO |
-| RISTER-S | [3, 3, 3, 9] | 6 | 21.83M | TODO |
-| RISTER-B | [4, 4, 4, 15] | 12 | 32.76M | TODO |
-| RISTER-L | [6, 6, 6, 18] | 12 | 38.65M | TODO |
+| RISTER-T | [1, 1, 1, 6] | 6 | 15.94M | https://drive.google.com/drive/folders/1LLAuqJ18FB4GCYWjo-mGPIQlJSzwMGns?usp=drive_link |
+| RISTER-S | [3, 3, 3, 9] | 6 | 21.83M | - |
+| RISTER-B | [4, 4, 4, 15] | 12 | 32.76M | - |
+| RISTER-L | [6, 6, 6, 18] | 12 | 38.65M | - |
 
 *(TODO: 将权重上传至 Google Drive / GitHub Release 并填入链接)*
 
@@ -93,7 +93,7 @@ If you find this work useful, please consider citing:
 
 ```bibtex
 @article{rister,
-  title={RISTER},
+  title={Embedding Rotation Invariance for Provable Multi-Oriented Scene Text Recognition},
   author={},
   journal={},
   year={}
